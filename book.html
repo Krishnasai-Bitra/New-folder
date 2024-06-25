@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="Bookstore.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div id="sectionWings">
+        <div class="bg-container">
+            <h1 class="heading">🏠Home 📚Books 👁️About</h1>
+            <h1 class="main-heading">Popular Book</h1>
+            <div class="d-flex flex-row">
+                <div class="wings-card d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="apj-image">
+                    <div>
+                        <h1 class="wings-heading"> Wings of Fire </h1>
+                        <p class="wings-bio">An Autobiography of Abdul Kalam</p>
+                        <p class="wings-a-paragraph">by Dr. Arun Tiwari</p>
+                        <button class="apj-button btn btn-primary" onclick="display('sectionWingsDetailed')">Read Now</button>
+                    </div>
+                </div>
+
+                <div class="minds-card d-flex flex-row">
+                    <img src="https://images.meesho.com/images/products/124520532/3f9ww_512.webp" class="apj-image">
+                    <div>
+                        <h1 class="wings-heading">Ignited Minds </h1>
+                        <p class="wings-bio">life principles</p>
+                        <p class="wings-a-paragraph">by A.P.J.Abdul Kalam</p>
+                        <button class="apj-button btn btn-primary" onclick="display('sectionMindsdetail')">Read Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="recommended-heading">Recommended Books</h1>
+            <div class="d-flex flex-row">
+                <div>
+                    <div class="bagat-card  d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="bagat-image">
+                        <div>
+                            <h1 class="bagat-heading">The 3 mistakes of my life </h1>
+                            <p class="bagat-paragraph">Indian author </p>
+                            <p class="bagat-a-paragraph">by Chetan Bhagat</p>
+                            <button class="bagat-button btn btn-primary" onclick="display('sectionMistakesdetail')">Read Now</button>
+                        </div>
+                    </div>
+
+                    <div class="harry-card  d-flex flex-row">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="harry-image">
+                        <div>
+                            <h1 class="harry-heading">Harry Potter </h1>
+                            <p class="harry-paragraph">and the Sorcerer's Stone </p>
+                            <p class="harry-a-paragraph">by J.K.Rowling</p>
+                            <button class="harry-button btn btn-primary" onclick="display('sectionHarrydetail')">Read Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="bagat-card  d-flex flex-row">
+                        <img src="https://i.pinimg.com/564x/b0/1b/ef/b01bef0e6188f57d352f8e4b84358e1f.jpg" class="bagat-image">
+                        <div>
+                            <h1 class="bagat-heading">Rich Dad Poor Dad </h1>
+                            <p class="bagat-paragraph">financial literacy </p>
+                            <p class="bagat-a-paragraph">by Robert T. Kiyosaki and Sharon Lechter.</p>
+                            <button class="bagat-button btn btn-primary" onclick="display('sectiondaddetail')">Read Now</button>
+                        </div>
+                    </div>
+
+                    <div class="harry-card  d-flex flex-row">
+                        <img src="https://i.pinimg.com/564x/38/56/38/385638c4b7a5e9ea43ce56c1d4024489.jpg" class="harry-image">
+                        <div>
+                            <h1 class="harry-heading">A Song of Ice and Fire </h1>
+                            <p class="harry-paragraph"> fictional Story </p>
+                            <p class="harry-a-paragraph">by George R. R. Martin.</p>
+                            <button class="harry-button btn btn-primary" onclick="display('sectionicedetail')">Read Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="sectionWingsDetailed">
+        <div class="discription-container">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="kalam-image">
+            <h1 class="kalam-heading">Wings of Fire</h1>
+            <p class="wings-auther">by Arun Tiwari</p>
+            <p class="kalam-discription">Every common man who by his sheer grit and hard work </br> achieves success should share his story with the rest for</br> they may find inspiration and strength to go on, in his </br>story. The 'Wings of Fire' is one such autobiography by </br> visionary scientist Dr. APJ Abdul Kalam, who from very </br>humble beginnings rose to be the President of India. The </br>book is full of insights, personal moments and life </br>experiences of Dr. Kalam. It gives us an understanding on </br>his journey of success.</p>
+            <button class="btn btn-primary" onclick="display('sectionwingsutube')">Know More</button>
+            <button class="btn btn-secondary" onclick="display('sectionWings')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionMindsdetail">
+        <div class="discription-container">
+            <img src="https://images.meesho.com/images/products/124520532/3f9ww_512.webp" class="kalam-image">
+            <h1 class="kalam-heading">Ignited Minds</h1>
+            <p class="wings-auther">by A.P.J.Abdul Kalam</p>
+            <p class="kalam-discription">Author A.P.J. Abdul Kalam is one of India's most distinguished </br> scientists, responsible for the development of India's </br> first satellite launch vehicle and the operationalization </br> of strategic missiles. He also pioneered India Vision 2020, </br> a road map for transforming India. The President of </br> India between 2002 and 2007, Dr Kalam has been awarded honorary </br> doctorates from thirty-eight universities and the country's three highest </br> civilian honours—the Padma Bhushan (1981), Padma Vibhushan (1990) and Bharat Ratna </br> (1997). A prolific and bestselling author, he now conducts 0lectures </br> on societal development in many international institutes and is involved </br> in research on different societal missions.</p>
+            <button class="btn btn-primary" onclick="display('sectionmindutube')">Know More</button>
+            <button class="btn btn-secondary" onclick="display('sectionWings')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionMistakesdetail">
+        <div class="discription-container">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="kalam-image">
+            <h1 class="kalam-heading">The 3 mistakes of my life</h1>
+            <p class="wings-auther">by Chetan Bhagat</p>
+            <p class="kalam-discription">The 3 Mistakes of my life is the third novel written by </br> eminent Indian Author Chetan Bhagat. Based on cricket, </br> business and religion, the novel is set against the </br> backdrop of beautiful city Ahmedabad. Revolving around </br> three young Indian boys Omi, Ishaan and Govind, the </br> book goes on to narrate how the three are trying their </br> best to make ends meet in the city. Based on real events, </br> the book starts with a dramatic twist, where Bhagat is </br> reading an e-mail sent by some young person Govind.</p>
+            <button class="btn btn-primary" onclick="display('section3mistakesutube')">Know More</button>
+            <button class="btn btn-secondary" onclick="display('sectionWings')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionHarrydetail">
+        <div class="discription-container">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="kalam-image">
+            <h1 class="kalam-heading">Harry Potter</h1>
+            <p class="wings-auther">by J.K.Rowling</p>
+            <p class="kalam-discription">Harry Potter's life is miserable. His parents are dead and </br> he's stuck with his heartless relatives, who force him to </br> live in a tiny closet under the stairs. But his fortune </br> changes when he receives a letter that tells him the truth </br> about himself: he's a wizard. A mysterious visitor rescues </br> him from his relatives and takes him to his new home, </br> Hogwarts School of Witchcraft and Wizardry. After a </br> lifetime of bottling up his magical powers, Harry finally </br> feels like a normal kid.</p>
+            <button class="btn btn-primary" onclick="display('sectionharryutube')">Know More</button>
+            <button class="btn btn-secondary" onclick="display('sectionWings')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectiondaddetail">
+        <div class="discription-container">
+            <img src="https://i.pinimg.com/564x/b0/1b/ef/b01bef0e6188f57d352f8e4b84358e1f.jpg" class="kalam-image">
+            <h1 class="kalam-heading">Rich Dad Poor Dad</h1>
+            <p class="wings-auther">by Robert T. Kiyosaki and Sharon Lechter.</p>
+            <p class="kalam-discription">Rich Dad Poor Dad is a 1997 book by Robert Kiyosaki and Sharon Lechter.</br> The book is about the importance of financial literacy</br> from an early age. It explains how people can increase their wealth by</br> investing in assets and being smart with money. </br>The rich make their money work for them You must have heard the phrase</br> "live to work or work to live". This is one of the basic concepts addressed in the book </br>«Rich Dad Poor Dad». Most people work to survive. If they have money problems,</br> they ride them out or ask for a raise.</p>
+            <button class="btn btn-primary" onclick="display('sectiondadutube')">Know More</button>
+            <button class="btn btn-secondary" onclick="display('sectionWings')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionicedetail">
+        <div class="discription-container">
+            <img src="https://i.pinimg.com/564x/38/56/38/385638c4b7a5e9ea43ce56c1d4024489.jpg" class="kalam-image">
+            <h1 class="kalam-heading">A Song of Ice and Fire</h1>
+            <p class="wings-auther">by George R. R. Martin.</p>
+            <p class="kalam-discription">The principal story chronicles the power struggle for the </br> Iron Throne among the great Houses of Westeros following</br> the death of King Robert in A Game of Thrones.</br> Robert's heir apparent, the 13-year-old Joffrey,</br> is immediately proclaimed king through the machinations of his mother,</br> Queen Cersei Lannister.</br> A struggle for the Iron Throne after King Robert's death A dynastic civil war for control of Westeros . </br> He threat of the Others, who live beyond a wall of ice</p>
+            <button class="btn btn-primary" onclick="display('sectioniceutube')">Know More</button>
+            <button class="btn btn-secondary" onclick="display('sectionWings')">Back</button>
+        </div>
+    </div>
+
+
+    <div id="sectionwingsutube">
+        <iframe class="embed-responsive-item video-size" src="https://www.youtube.com/embed/t5b20oLaIaw?rel=0" allowfullscreen></iframe>
+        <button class="btn btn-secondary" onclick="display('sectionWingsDetailed')">Back</button>
+    </div>
+    <div id="sectionmindutube">
+        <iframe class="embed-responsive-item video-size" src="https://www.youtube.com/embed/C0H0a-1Z32Y?rel=0" allowfullscreen></iframe>
+        <button class="btn btn-secondary" onclick="display('sectionWingsDetailed')">Back</button>
+    </div>
+    <div id="section3mistakesutube">
+        <iframe class="embed-responsive-item video-size" src="https://www.youtube.com/embed/BQ4u8mz3m10?rel=0" allowfullscreen></iframe>
+        <button class="btn btn-secondary" onclick="display('sectionWingsDetailed')">Back</button>
+    </div>
+    <div id="sectionharryutube">
+        <iframe class="embed-responsive-item video-size" src="https://www.youtube.com/embed/M_S8T4BvZ6A?rel=0" allowfullscreen></iframe>
+        <button class="btn btn-secondary" onclick="display('sectionWingsDetailed')">Back</button>
+    </div>
+    <div id="sectiondadutube">
+        <iframe class="embed-responsive-item video-size" src="https://www.youtube.com/embed/wF293QPbmvo?rel=0" allowfullscreen></iframe>
+        <button class="btn btn-secondary" onclick="display('sectiondaddetail')">Back</button>
+    </div>
+    <div id="sectioniceutube">
+        <iframe class="embed-responsive-item video-size" src="https://www.youtube.com/embed/ttfRaeG81yk?rel=0" allowfullscreen></iframe>
+        <button class="btn btn-secondary" onclick="display('sectionicedetail')">Back</button>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+

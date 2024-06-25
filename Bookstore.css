@@ -1,0 +1,231 @@
+.bg-container {
+    background-image: url("https://img.freepik.com/free-photo/large-collection-old-books-wooden-shelves-generated-by-ai_188544-29739.jpg?t=st=1694351049~exp=1694354649~hmac=83c2391d0a92ac8155ff53426f6cf5e7f7f38030851908b7870c20fad3d8e087&w=1060");
+    height: 120vh;
+    background-size: cover;
+
+}
+
+.heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.main-heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 25px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.apj-image {
+    height: 193px;
+}
+
+.wings-card {
+    font-family: "Bree Serif";
+    background-color: #e6f6ff;
+    border-radius: 10px;
+    margin: 20px;
+    width: 480px;
+
+}
+
+.wings-heading {
+    color: #183b56;
+    font-family: "Bree Serif";
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.wings-bio {
+    color: #070912;
+    font-family: "Bree Serif";
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.wings-a-paragraph {
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.apj-button {
+    color: white;
+    margin: 10px;
+
+}
+
+.minds-card {
+    font-family: "Bree Serif";
+    background-color: #e6f6ff;
+    border-radius: 10px;
+    margin: 20px;
+    width: 480px;
+
+}
+
+.wings-heading {
+    color: #183b56;
+    font-family: "Bree Serif";
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.wings-bio {
+    color: #070912;
+    font-family: "Bree Serif";
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.wings-a-paragraph {
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.apj-button {
+    color: white;
+    margin: 10px;
+
+}
+
+.recommended-heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 25px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.bagat-image {
+    height: 193px;
+}
+
+.bagat-card {
+    font-family: "Bree Serif";
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    margin: 20px;
+    width: 350px;
+
+}
+
+.bagat-heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bagat-paragraph {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bagat-a-paragraph {
+    color: white;
+    font-size: 10px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.bagat-button {
+    color: white;
+    margin: 5px;
+
+}
+
+.harry-image {
+    height: 193px;
+}
+
+.harry-card {
+    font-family: "Bree Serif";
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    margin: 20px;
+    width: 350px;
+}
+
+.harry-heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.harry-paragraph {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.harry-a-paragraph {
+    color: white;
+    font-size: 10px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.harry-button {
+    color: white;
+    margin: 5px;
+
+}
+
+.discription-container {
+    background-color: #1b1b1b;
+    height: 130vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.kalam-image {
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.kalam-heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 25px;
+}
+
+.wings-auther {
+    color: #9aa5b1;
+    font-family: "Bree Serif";
+}
+
+.wings-paragraph {
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.kalam-discription {
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.video-size {
+    height: 100vh;
+    width: 100vw;
+
+}
